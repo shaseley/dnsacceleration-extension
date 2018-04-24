@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="popup.js"></script>
+  </head>
+<!--
+  The layout was inspired by Google's Data Saver extension as an example of
+  Material Design.
+-->
+  <body>
+    <div "id"="controls">
+      <div id="enable_row">
+        <div class="control-text">
+          <span>DNS Measurement Study</span>
+        </div>
+
+        <div class="toggle-container">
+          <input type="checkbox" id="ext_toggle">
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+
+      <div id="enable_domain_row">
+        <div id="domain_text" class="control-text-smaller disabled-text">
+          <span>Record domain names (Non-incognito Mode)</span>
+        </div>
+
+        <div class="toggle-container">
+          <input type="checkbox" id="domain_toggle">
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+
+    </div>
+
+    <div id="divider"></div>
+    <div style="clear: both;"></div>
+
+    <div id="buttons-row">
+      <span class="website-container">
+        <a id="website-link" tabindex="-1" target="_blank" href="https://www.dnsacceleration.systems">ABOUT</a>
+      </span>
+    </div>
+
+  </body>
+</html>
